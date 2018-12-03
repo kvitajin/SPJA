@@ -1,0 +1,26 @@
+Úloha 1: (1 bod)
+Vytvořte funkci invert, která bude v cyklu invertovat velikost znaků u zadaného řetězce (to bude
+jediný parametr funkce). Výstupem funkce bude výsledný řetězec.
+
+Úloha 2: (1 bod)
+Vytvořte jednoduchý slovník pro překlad z angličtiny do češtiny obsahující alespoň 5 slov. Vstupem
+funkce translate bude slovník a anglické slovo. Pokud slovo nebude ve slovníku, funkce vypíše vhodné
+hlášení, abecedně setříděný seznam (list) známých anglických slovíček a vrátí hodnotu None.
+
+Úloha 3: (1 bod)
+Vytvořte reálnou lineární funkci   3  5 pojmenovanou fu. Dále vytvořte funkci fu_map, která
+vrátí seznam hodnot , kde  jsou jednotlivé celočíselné nebo reálné hodnoty ze zadaného
+seznamu, který bude předán funkci fu_map jako její první parametr, druhým parametrem bude
+funkce fu.
+Testovací seznam: [‘Hello World’, ‘3.14’, 0, 8.9, 5j]
+Očekávaný výsledek: [14.42, 5.0, 31.700000000000003]
+
+Úloha 4: (1 bod)
+Vytvořte funkci factorial pro výpočet faktoriálu zadaného čísla pomocí cyklu while (bez použití
+rekurze nebo vestavěné funkce math.factorial).
+
+Úloha 5: (1 bod)
+Napište funkci integral, která vrátí přibližnou hodnotu určitého integrálu funkce   1 3⁄
+2    8 na zadaném uzavřeném intervalu 〈0,6〉. Pro výpočet aproximace použijte libovolný
+rozumný postup (např. kvadraturní vzorce). Funkce bude mít tři argumenty; n – počet dělení
+intervalu, a – počáteční mez, b – koncová mez. Výsledek porovnejte s analytickým výpočtem.

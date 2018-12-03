@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vyser si oko</title>
+</head>
+<body>
+<h1>Companies</h1>
+{% for c in companies %}
+    <li><a href="{% url 'company_name' c.id%}"> {{ c.name }}</a> </li>
+{% endfor %}
+</body>
+</html>

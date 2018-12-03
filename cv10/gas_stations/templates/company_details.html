@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company {{ company.id }} is {{ company.name }}</title>
+</head>
+<body>
+<p>Company {{ company.id }} is {{ company.name }}</p>
+<li>{{ c.stations }}</li>
+<a href="{% url 'company_index' %}">back</a>
+</body>
+</html>
